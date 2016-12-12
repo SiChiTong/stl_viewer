@@ -159,6 +159,6 @@ if __name__ =='__main__':
     getGeometryInput(facet, x_min, x_max, y_min, y_max, z_min, z_max, sys.argv[1])
     
     print "Triangle %d"%(len(facet) + 1)
-    print "point 1 %f, %f, %f"%(facet[4633].points[0].x, facet[4633].points[0].y, facet[4633].points[0].z)              
+    print "point 1 %f, %f, %f"%(facet[len(facet)].points[0].x, facet[len(facet)].points[0].y, facet[len(facet)].points[0].z)              
     print 
     
